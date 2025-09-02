@@ -3,6 +3,8 @@
 
 :root{
     --primary_color: #C92071;
+    --text_color_dark_gray: #1f1f1f;
+    --text_color_dark_gray_2: #474747;
 }
 
 *{
@@ -36,6 +38,44 @@ header{
         img{
             width: 20px;
             margin-bottom: .5px;
+        }
+    }
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#b5b6f2, #efefff);
+    padding: 63px 0 80px;
+    
+    form{
+        background-color: white;
+        width: 315px;
+        height: 572px;
+        padding: 30px;
+
+        .text{
+
+            h1{
+                font-size: 22px;
+                font-size: 2.1rem;
+                font-weight: 700;
+                color: var(--text_color_dark_gray);
+                line-height: 34px;
+                letter-spacing: 2px;
+                text-align: center;
+            }
+
+            p{
+                font-size: 1.4rem;
+                letter-spacing: .25px;
+                text-align: center;
+                color: var(--text_color_dark_gray_2);
+                line-height: 24px;
+                a{
+                    border-bottom: solid .5rem var(--text_color_dark_gray_2);
+                }
+            }
         }
     }
 }
