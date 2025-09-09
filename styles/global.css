@@ -73,7 +73,7 @@ main{
                 color: var(--text_color_dark_gray_2);
                 line-height: 24px;
                 a{
-                    border-bottom: solid .5rem var(--text_color_dark_gray_2);
+                    border-bottom: solid 1px var(--text_color_dark_gray_2);
                 }
             }
         }
