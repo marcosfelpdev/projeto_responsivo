@@ -34,3 +34,59 @@
         }
     }
 }
+@media(width >= 991px){
+    header {
+        width: 100%;
+        padding: 0 100px 0px 100px;
+        display: flex;
+        justify-content: flex-start;
+        a{
+            justify-content: flex-start;
+            margin: 0;
+        }
+    }
+    main{
+        padding: 63px 100px 80px;
+        justify-content: space-between;
+        align-items: center;
+        form{
+            width: 100%;
+            max-width: 583px;
+            min-width: 315px;
+            .login_alternativo{
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+        img{
+            display: block;
+            width: 70%;
+            max-width: 682px;
+            
+        }
+    }
+    footer{
+        .box{
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            .nav{
+                display: flex;
+                flex-direction: row;
+                gap: 102px;
+                margin-bottom: 34px;
+                .links nav ul{
+                    display: flex;
+                    flex-direction: column;
+                    li{
+                        line-height: 38px;
+                    }
+                }
+            }
+
+        .contact{
+            width: 233px;
+        }
+        }
+    }
+}
